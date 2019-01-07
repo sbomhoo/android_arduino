@@ -13,8 +13,8 @@ contents varchar(100));
 
 
 insert into board (writer,contents)
-values ('½Å','¹Ùº¸');
+values ('ì‹ ','ë°”ë³´');
 
 
 insert into recom (category ,phone ,title,contents )
-values ('¹ö±×Á¦Ãâ','010-2918-6496','¹ö±×','Á¦ÃâÇÕ´Ï´Ù');
+values ('ë²„ê·¸ì œì¶œ','496','ë²„ê·¸','ì œì¶œí•©ë‹ˆë‹¤');
