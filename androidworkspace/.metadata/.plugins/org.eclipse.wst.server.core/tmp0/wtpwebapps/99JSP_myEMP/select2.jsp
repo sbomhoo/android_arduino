@@ -1,0 +1,26 @@
+<%@page import="test.com.jsp.EmpDTO"%>
+<%@page import="java.util.ArrayList"%>
+<%@page import="test.com.jsp.EmpDAO"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
+<%
+	EmpDAO dao = new EmpDAO();
+	ArrayList<EmpDTO> list = dao.select();	
+
+	StringBuffer buffer = new StringBuffer();
+	buffer.append("<dept>");
+	
+	 for(EmpDTO dto : list) { 
+		int bno = dto.getBno();
+		String writer = dto.getWriter();
+		String contents = dto.getContents();
+		buffer.append("<record>");
+		buffer.append("<bno>"+bno+"</bno>");
+		buffer.append("<writer>"+writer+"</writer>");
+		buffer.append("<contents>"+contents+"</contents>");
+		buffer.append("</record>");
+	}
+	buffer.append("</dept>");
+%>
+<%= buffer.toString()%>
