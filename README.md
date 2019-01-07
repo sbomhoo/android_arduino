@@ -1,4 +1,4 @@
-# android_arduino
+# Parking IoT
 안드로이드기술과 아두이노를 이용한 주차 관리 앱개발 프로젝트
 
 <내용>
