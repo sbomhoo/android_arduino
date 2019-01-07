@@ -7,8 +7,9 @@
  - 주차장 주인 유휴 주차공간 활용 기회 증가
  - 어플로 간단한 방명록 쓰기 기능
 
-androidworkspace -> 안드로이드/DB 폴더
-arduino_parkingloT -> 아두이노 폴더
+<Workspace 설명>
+ - androidworkspace -> 안드로이드/DB 폴더
+ - arduino_parkingloT -> 아두이노 폴더
 
 <개발환경>
 - AndroidStudio 2.2.3
